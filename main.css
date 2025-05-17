@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Jura:wght@300..700&family=Lobster&family=Pacifico&family=Play:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    scroll-behavior: smooth
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #2a224c;
+}
+
+h1 {
+    text-align: center;
+}
+
+.img {
+    margin: 0 50px;
+    text-align: center;
+}
+
+.i {
+    width: 50%;
+}
+article {
+    text-align: center;
+
+}
+
+footer {
+    
+    background-color: #2a224c;
+    color: #f4f7f9;
+    text-align: center;
+    padding: 10px;
+    
+    border-radius: 10px;
+    margin: 20px 5px;
+}
+
+.s {
+    margin: 3px;
+}
+
+.i:hover {
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+
+@media (min-width: 700px) {
+    .s {
+        display: flex;
+        width: 700px;
+        
+    }
+    .d {
+        margin: 20px;
+    }
+    .a {
+        width: 93%;
+    }
+
+    .b {
+        width: 90%;
+    }
+}
+
+@media (min-width: 1024px) { 
+    .s {
+        width: 900px;
+        margin: auto;
+    }
+}
